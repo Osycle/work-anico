@@ -89,8 +89,47 @@ $(document).ready(function(){
 	tabContent.find('[data-toggle="collapse"]').on("click", function(){
 		tabContent.find(".collapse").collapse("hide");
 	})
-
-
+	/*AOS*/
+	if( "AOS" in window ){
+		AOS.init({
+			offset: 100,
+			once: true,
+			duration: 1100,
+			delay: 150
+		});
+		setTimeout(function() { AOS.refresh(); }, 1);
+	}
+	//MIN-MENU
+	$("#min-menu").mmenu({
+		extensions: [
+			"wrapper-bg", // wrapper-bg black
+			//"theme-dark",
+			"theme-white",
+			//"fullscreen",
+			"listview-50",
+			"fx-panels-slide-up",
+			"fx-listitems-drop",
+			"border-offset",
+			"position-front",
+			"position-right"
+		],
+		navbar: {
+			title: "Меню"
+		},
+		navbars: [{
+				height: 0,
+				content: [
+					// '<div class="close-btn close-content bar">' +
+					// '<a  href="#page" ><span class="icon-bar"></span><span class="icon-bar"></span></a>' +
+					// '</div>'
+				]
+			},
+			{
+				content: ["prev", "title"]
+			}
+		]
+	}, {});
+		
 	//SCROLL
     var minMenu = $(".header-scroll") || null;
     var headerRange = false;
