@@ -1,0 +1,254 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?hhwbgo') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?hhwbgo') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?hhwbgo##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icm"], [class*=" icm"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icmtelephone {
+  &:before {
+    content: $icmtelephone; 
+  }
+}
+.icmtwitter-logo-silhouette1 {
+  &:before {
+    content: $icmtwitter-logo-silhouette1; 
+  }
+}
+.icmvk {
+  &:before {
+    content: $icmvk; 
+  }
+}
+.icmwhatsapp {
+  &:before {
+    content: $icmwhatsapp; 
+  }
+}
+.icmaddress {
+  &:before {
+    content: $icmaddress; 
+  }
+}
+.icmanalysis {
+  &:before {
+    content: $icmanalysis; 
+  }
+}
+.icmarrow-pointing-to-right {
+  &:before {
+    content: $icmarrow-pointing-to-right; 
+  }
+}
+.icmboxes {
+  &:before {
+    content: $icmboxes; 
+  }
+}
+.icmbrokerage {
+  &:before {
+    content: $icmbrokerage; 
+  }
+}
+.icmcalendar {
+  &:before {
+    content: $icmcalendar; 
+  }
+}
+.icmcheck-mark {
+  &:before {
+    content: $icmcheck-mark; 
+  }
+}
+.icmclose-button {
+  &:before {
+    content: $icmclose-button; 
+  }
+}
+.icmcontract {
+  &:before {
+    content: $icmcontract; 
+  }
+}
+.icmcredit-card {
+  &:before {
+    content: $icmcredit-card; 
+  }
+}
+.icmdown-arrow {
+  &:before {
+    content: $icmdown-arrow; 
+  }
+}
+.icmdownload-arrow {
+  &:before {
+    content: $icmdownload-arrow; 
+  }
+}
+.icmemail {
+  &:before {
+    content: $icmemail; 
+  }
+}
+.icmenvelope {
+  &:before {
+    content: $icmenvelope; 
+  }
+}
+.icmfacebook1 {
+  &:before {
+    content: $icmfacebook1; 
+  }
+}
+.icmfacebook-logo1 {
+  &:before {
+    content: $icmfacebook-logo1; 
+  }
+}
+.icmfeedback {
+  &:before {
+    content: $icmfeedback; 
+  }
+}
+.icmhome-stroyka {
+  &:before {
+    content: $icmhome-stroyka; 
+  }
+}
+.icmhouse {
+  &:before {
+    content: $icmhouse; 
+  }
+}
+.icmlaw {
+  &:before {
+    content: $icmlaw; 
+  }
+}
+.icmlinkedin {
+  &:before {
+    content: $icmlinkedin; 
+  }
+}
+.icmlinkedin-logo {
+  &:before {
+    content: $icmlinkedin-logo; 
+  }
+}
+.icmodnoklassniki {
+  &:before {
+    content: $icmodnoklassniki; 
+  }
+}
+.icmphone-call {
+  &:before {
+    content: $icmphone-call; 
+  }
+}
+.icmright-arrow {
+  &:before {
+    content: $icmright-arrow; 
+  }
+}
+.icmtax {
+  &:before {
+    content: $icmtax; 
+  }
+}
+.icmtelegram1 {
+  &:before {
+    content: $icmtelegram1; 
+  }
+}
+.icmantenna {
+  &:before {
+    content: $icmantenna; 
+  }
+}
+.icmcalendar1 {
+  &:before {
+    content: $icmcalendar1; 
+  }
+}
+.icmcall-answer {
+  &:before {
+    content: $icmcall-answer; 
+  }
+}
+.icmconnection {
+  &:before {
+    content: $icmconnection; 
+  }
+}
+.icmcorrect-symbol {
+  &:before {
+    content: $icmcorrect-symbol; 
+  }
+}
+.icmfacebook-logo {
+  &:before {
+    content: $icmfacebook-logo; 
+  }
+}
+.icmfacebook {
+  &:before {
+    content: $icmfacebook; 
+  }
+}
+.icmhome {
+  &:before {
+    content: $icmhome; 
+  }
+}
+.icminstagram {
+  &:before {
+    content: $icminstagram; 
+  }
+}
+.icmleft-arrow-min {
+  &:before {
+    content: $icmleft-arrow-min; 
+  }
+}
+.icmrepair {
+  &:before {
+    content: $icmrepair; 
+  }
+}
+.icmserver {
+  &:before {
+    content: $icmserver; 
+  }
+}
+.icmtelegram {
+  &:before {
+    content: $icmtelegram; 
+  }
+}
+.icmtwitter-logo-silhouette {
+  &:before {
+    content: $icmtwitter-logo-silhouette; 
+  }
+}
+

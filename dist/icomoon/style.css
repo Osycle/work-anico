@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('fonts/icomoon.ttf?hhwbgo') format('truetype'),
+    url('fonts/icomoon.woff?hhwbgo') format('woff'),
+    url('fonts/icomoon.svg?hhwbgo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icm"], [class*=" icm"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icmtelephone:before {
+  content: "\e90e";
+}
+.icmtwitter-logo-silhouette1:before {
+  content: "\e90f";
+}
+.icmvk:before {
+  content: "\e910";
+}
+.icmwhatsapp:before {
+  content: "\e911";
+}
+.icmaddress:before {
+  content: "\e912";
+}
+.icmanalysis:before {
+  content: "\e913";
+}
+.icmarrow-pointing-to-right:before {
+  content: "\e914";
+}
+.icmboxes:before {
+  content: "\e915";
+}
+.icmbrokerage:before {
+  content: "\e916";
+}
+.icmcalendar:before {
+  content: "\e917";
+}
+.icmcheck-mark:before {
+  content: "\e918";
+}
+.icmclose-button:before {
+  content: "\e919";
+}
+.icmcontract:before {
+  content: "\e91a";
+}
+.icmcredit-card:before {
+  content: "\e91b";
+}
+.icmdown-arrow:before {
+  content: "\e91c";
+}
+.icmdownload-arrow:before {
+  content: "\e91d";
+}
+.icmemail:before {
+  content: "\e91e";
+}
+.icmenvelope:before {
+  content: "\e91f";
+}
+.icmfacebook1:before {
+  content: "\e920";
+}
+.icmfacebook-logo1:before {
+  content: "\e921";
+}
+.icmfeedback:before {
+  content: "\e922";
+}
+.icmhome-stroyka:before {
+  content: "\e923";
+}
+.icmhouse:before {
+  content: "\e924";
+}
+.icmlaw:before {
+  content: "\e925";
+}
+.icmlinkedin:before {
+  content: "\e926";
+}
+.icmlinkedin-logo:before {
+  content: "\e927";
+}
+.icmodnoklassniki:before {
+  content: "\e928";
+}
+.icmphone-call:before {
+  content: "\e929";
+}
+.icmright-arrow:before {
+  content: "\e92a";
+}
+.icmtax:before {
+  content: "\e92b";
+}
+.icmtelegram1:before {
+  content: "\e92c";
+}
+.icmantenna:before {
+  content: "\e900";
+}
+.icmcalendar1:before {
+  content: "\e901";
+}
+.icmcall-answer:before {
+  content: "\e902";
+}
+.icmconnection:before {
+  content: "\e903";
+}
+.icmcorrect-symbol:before {
+  content: "\e904";
+}
+.icmfacebook-logo:before {
+  content: "\e905";
+}
+.icmfacebook:before {
+  content: "\e906";
+}
+.icmhome:before {
+  content: "\e907";
+}
+.icminstagram:before {
+  content: "\e908";
+}
+.icmleft-arrow-min:before {
+  content: "\e909";
+}
+.icmrepair:before {
+  content: "\e90a";
+}
+.icmserver:before {
+  content: "\e90b";
+}
+.icmtelegram:before {
+  content: "\e90c";
+}
+.icmtwitter-logo-silhouette:before {
+  content: "\e90d";
+}
