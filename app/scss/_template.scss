@@ -2430,3 +2430,76 @@ textarea.form-control{
 	}
 }
 
+.menu-list{
+	display: flex;
+	li{
+		&:hover{
+			&>[class*="sub-menu"]{
+				opacity: 1;
+				pointer-events: auto;
+				transform: scale(1);
+			}
+		}
+	}
+	&>li{
+		width: 100%;
+		&>a{
+			text-align: center;
+			transition: all 0.3s ease;
+		}
+		&:hover{
+			&>a{
+				background-color: $color-2;
+			}
+		}
+	}
+	a{
+		padding: 20px 15px;
+		background-color: $color-1;
+		display: block;
+	}
+}
+[class*="sub-menu"]{
+	position: absolute;
+	pointer-events: none;
+	opacity: 0;
+	transition: all 0.3s ease;
+	box-shadow: 0 5px 15px -3px rgba(black, 0.5);
+	a{
+		display: flex;
+		align-items: center;
+		min-width: 210px;
+		font-size: 0.95em;
+		padding: 12px 15px;
+		padding-right: 20px;
+		background-color: darken($color-2, 10%);
+	}
+	i{
+		color: white;
+		z-index: 1;
+		position: absolute;
+		right: 10px;
+	}
+	&.sub-menu-1{
+		transform: matrix(1,0,0,1,0,10);
+	}
+	&:not(.sub-menu-1){
+		left: 100%;
+		top: 0;
+	}
+	&.sub-menu-2{
+		transform: matrix(1,0,0,1,10,0);
+	}
+	&.sub-menu-3{
+		transform: matrix(1,0,0,1,10,0);
+	}
+	li{
+		position: relative;
+		&:hover{
+			&>a{
+				background-color: $color-2;
+			}
+		}
+	}
+
+}

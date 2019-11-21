@@ -11156,6 +11156,79 @@ textarea.form-control {
     -ms-transform: rotate(180deg);
     transform: rotate(180deg); }
 
+.menu-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .menu-list li:hover > [class*="sub-menu"] {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  .menu-list > li {
+    width: 100%; }
+    .menu-list > li > a {
+      text-align: center;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+    .menu-list > li:hover > a {
+      background-color: #0067a6; }
+  .menu-list a {
+    padding: 20px 15px;
+    background-color: #2191d5;
+    display: block; }
+
+[class*="sub-menu"] {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.5); }
+  [class*="sub-menu"] a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 210px;
+    font-size: 0.95em;
+    padding: 12px 15px;
+    padding-right: 20px;
+    background-color: #004773; }
+  [class*="sub-menu"] i {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    right: 10px; }
+  [class*="sub-menu"].sub-menu-1 {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 10);
+    -ms-transform: matrix(1, 0, 0, 1, 0, 10);
+    transform: matrix(1, 0, 0, 1, 0, 10); }
+  [class*="sub-menu"]:not(.sub-menu-1) {
+    left: 100%;
+    top: 0; }
+  [class*="sub-menu"].sub-menu-2 {
+    -webkit-transform: matrix(1, 0, 0, 1, 10, 0);
+    -ms-transform: matrix(1, 0, 0, 1, 10, 0);
+    transform: matrix(1, 0, 0, 1, 10, 0); }
+  [class*="sub-menu"].sub-menu-3 {
+    -webkit-transform: matrix(1, 0, 0, 1, 10, 0);
+    -ms-transform: matrix(1, 0, 0, 1, 10, 0);
+    transform: matrix(1, 0, 0, 1, 10, 0); }
+  [class*="sub-menu"] li {
+    position: relative; }
+    [class*="sub-menu"] li:hover > a {
+      background-color: #0067a6; }
+
 /*
 		_helper.scss	
 */
